@@ -45,7 +45,12 @@ If you are using Powershell:
 .\docker-bitcoin-cli.ps1 sendtoaddress "mohu16LH66ptoWGEL1GtP6KHTBJYXMWhEf" 0.23111090
 ```
 
-You can also generate blocks:
+##### You can also generate blocks
+If you are using Linux:
+```
+./docker-bitcoin-generate.sh 3
+```
+If you are using Powershell:
 ```powershell
 .\docker-bitcoin-generate.ps1 3
 ```
