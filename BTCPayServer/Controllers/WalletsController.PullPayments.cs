@@ -28,7 +28,8 @@ namespace BTCPayServer.Controllers
             return View(new NewPullPaymentModel()
             {
                 Name = "",
-                Currency = "BTC"
+                Currency = "BTC",
+                RequirePayoutApproval = true
             });
         }
 

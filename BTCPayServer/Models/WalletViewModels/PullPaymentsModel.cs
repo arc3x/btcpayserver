@@ -42,5 +42,8 @@ namespace BTCPayServer.Models.WalletViewModels
         [Required]
         [ReadOnly(true)]
         public string Currency { get; set; }
+        [Required]
+        [Display(Name = "Require Payout Approval")]
+        public Boolean RequirePayoutApproval { get; set; }
     }
 }
